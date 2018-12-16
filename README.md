@@ -11,7 +11,6 @@ classifier](http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classif
 1. get perl and OpenCV for winodws & install
 
   perl: http://strawberryperl.com/download/5.28.1.1/strawberry-perl-5.28.1.1-64bit.msi
-  
   OpenCV: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.6-vc14.exe/download
 
 2. Clone this repository
