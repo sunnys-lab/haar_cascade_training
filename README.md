@@ -24,9 +24,7 @@ classifier](http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classif
 
 5. Create positive samples with the `bin/createsamples.pl` script and save them to the `./samples` folder:
 
-        perl bin/createsamples.pl positives.txt negatives.txt samples 1500\
-          "opencv_createsamples -bgcolor 0 -bgthresh 0 -maxxangle 1.1\
-          -maxyangle 1.1 maxzangle 0.5 -maxidev 40 -w 80 -h 40"
+        perl bin/createsamples.pl positives.txt negatives.txt samples 1500 "opencv_createsamples -bgcolor 0 -bgthresh 0 -maxxangle 1.1 -maxyangle 1.1 maxzangle 0.5 -maxidev 40 -w 80 -h 40"
 
 6. Use `mergevec.py` to merge the samples in `./samples` into one file:
 
